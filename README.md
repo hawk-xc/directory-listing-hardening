@@ -5,16 +5,17 @@ Directory listing (dirlisting) adalah sebuah fitur pada web server yang berfungs
 Dosis pertama dalam mencegah Directory Listing pada web server APACHE ialah melakukan disable "Options Indexes FollowSymLinks" pada konfigurasi /etc/apache2/apache2.conf"
 konfigurasi file apache di " nano /etc/apache2/apache2.conf " lalu lakukan pencarian dengan klik tombol kombinasi "CTRL + w". <br />
 <br /><Directory /var/www/><br />
-        Options Indexes FollowSymLinks <br />
-        AllowOverride None <br />
-        Require all granted <br />
-</Directory>
+&emsp;        Options Indexes FollowSymLinks <br />
+&emsp;        AllowOverride None <br />
+&emsp;        Require all granted <br />
+<Directory>
+<br />
 menjadi<br />
 <br /><Directory /var/www/><br />
 &emsp;        Options FollowSymLinks <br />
 &emsp;        AllowOverride None <br />
 &emsp;        Require all granted <br />
-</Directory>
+<Directory>
 <br />
 hapus options "Indexes" pada FollowSymLinks seperti konfigurasi diatas. yang mengisyaratkan kepada system agar tidak menampilan file jika tidak ada file yang dapat diINDEX.
 <br />

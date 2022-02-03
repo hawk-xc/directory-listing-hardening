@@ -1,6 +1,6 @@
 # how to prevent Directory Listing bug
 Directory listing (dirlisting) adalah sebuah fitur pada web server yang berfungsi menampilkan semua file dalam directory secara otomatis jika ketika file index tidak ada maupun tidak terdeteksi
-![Screenshot from 2022-02-03 13-43-44](https://user-images.githubusercontent.com/92193431/152294302-a06beea3-1681-4951-907e-fedc96ce8c3b.png)
+![Screenshot from 2022-02-03 13-49-20](https://user-images.githubusercontent.com/92193431/152294600-d951b8a6-f62b-4cf9-9425-f62ec07523a1.png)
 ### bagaimana cara mencegah directory listing pada web server Apache?
 Dosis pertama dalam mencegah Directory Listing pada web server APACHE ialah melakukan disable "Options Indexes FollowSymLinks" pada konfigurasi /etc/apache2/apache2.conf"
 konfigurasi file apache di " nano /etc/apache2/apache2.conf " lalu lakukan pencarian dengan klik tombol kombinasi "CTRL + w". <br />

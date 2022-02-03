@@ -9,7 +9,7 @@ konfigurasi file apache di " nano /etc/apache2/apache2.conf " lalu lakukan penca
         AllowOverride None <br />
         Require all granted <br />
 </Directory> <br />
-mmmkimenjadi<br />
+menjadi<br />
 <br /><Directory /var/www/><br />
         Options FollowSymLinks <br />
         AllowOverride None <br />

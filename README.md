@@ -8,13 +8,14 @@ konfigurasi file apache di " nano /etc/apache2/apache2.conf " lalu lakukan penca
         Options Indexes FollowSymLinks <br />
         AllowOverride None <br />
         Require all granted <br />
-</Directory> <br />
+</Directory>
 menjadi<br />
 <br /><Directory /var/www/><br />
-        Options FollowSymLinks <br />
-        AllowOverride None <br />
-        Require all granted <br />
-</Directory> <br />
+&emsp;        Options FollowSymLinks <br />
+&emsp;        AllowOverride None <br />
+&emsp;        Require all granted <br />
+</Directory>
+<br />
 hapus options "Indexes" pada FollowSymLinks seperti konfigurasi diatas. yang mengisyaratkan kepada system agar tidak menampilan file jika tidak ada file yang dapat diINDEX.
 <br />
 ### pentest
